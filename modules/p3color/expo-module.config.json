@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["p3colorModule"]
+  },
+  "android": {
+    "modules": ["dev.expo.kudo.p3color.p3colorModule"]
+  }
+}
