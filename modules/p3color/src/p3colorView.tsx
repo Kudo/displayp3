@@ -1,11 +1,11 @@
 import { requireNativeViewManager } from 'expo-modules-core';
 import * as React from 'react';
 
-import { p3colorViewProps } from './p3color.types';
+import { P3colorViewProps } from './p3color.types';
 
-const NativeView: React.ComponentType<p3colorViewProps> =
+const NativeView: React.ComponentType<P3colorViewProps> =
   requireNativeViewManager('p3color');
 
-export default function p3colorView(props: p3colorViewProps) {
+export default function P3colorView(props: P3colorViewProps) {
   return <NativeView {...props} />;
 }

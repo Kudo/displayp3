@@ -1,7 +1,7 @@
-export type ChangeEventPayload = {
-  value: string;
-};
+import type { ViewProps } from 'react-native';
 
-export type p3colorViewProps = {
-  name: string;
-};
+export interface ChangeEventPayload {
+  value: string;
+}
+
+export interface P3colorViewProps extends ViewProps {}
